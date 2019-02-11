@@ -130,6 +130,7 @@ img {
 	grid-area: title;
 	font-family: PT Sans, sans-serif;
 	font-size: 2rem;
+	
 }
 
 .title h1{
@@ -596,7 +597,8 @@ footer p {
 /* Media queries */
 
 
-@media (max-width: 700px) {
+@media screen and (max-width: 800px) {
+	
 .bignav {
 	
 	grid-template-areas:
@@ -624,6 +626,11 @@ footer p {
 	text-align: center;
 }
 
+.title h1 p {
+	
+	text-align: center;
+	
+}
 
 .speciality {
 	
@@ -675,7 +682,7 @@ footer p {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 	.bignav {
 	
 	grid-template-areas:
@@ -702,7 +709,7 @@ footer p {
 	text-align: center;
 }
 
-.title h1{
+.title h1 p {
 	
 	text-align: center;
 	
